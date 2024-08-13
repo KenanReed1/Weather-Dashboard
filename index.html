@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center">Weather Dashboard</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <h4>Search for a City</h4>
+                <input type="text" id="city" placeholder="City">
+                <button class="btn btn-primary btn-block mt-2" onclick="getWeather()">Search</button>
+            </div>
+            <div class="col-md-8">
+                <div id="current-weather" class="card">
+                    <div id="current-city"></div>
+                    <div id="current-temp"></div>
+                    <div id="current-wind"></div>
+                    <div id="current-humidity"></div>
+                </div>
+                <script src="./Assets/script.js"></script>
+                <h4>5-Day Forecast</h4>
+                <div id="current-forecast" class="forecast">
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

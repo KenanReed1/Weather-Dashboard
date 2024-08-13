@@ -1,0 +1,90 @@
+body {
+    background-color: #f0f8ff;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1 {
+    color: #007bff;
+    margin-bottom: 30px;
+}
+
+h4 {
+    color: #333;
+}
+
+#current-weather .card-title {
+    font-size: 24px;
+    color: #007bff;
+}
+
+#current-weather .card-text {
+    font-size: 18px;
+    color: #333;
+}
+
+.forecast .card {
+    background-color: #e3f2fd;
+    border: none;
+}
+
+.forecast .card-title {
+    font-size: 20px;
+    color: #007bff;
+}
+
+.forecast .card-text {
+    font-size: 16px;
+    color: #333;
+}
+
+button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin-top: 20px;
+    }
+    
+    h1 {
+        font-size: 28px;
+    }
+    
+    h4 {
+        font-size: 18px;
+    }
+    
+    #current-weather .card-title,
+    .forecast .card-title {
+        font-size: 20px;
+    }
+    
+    #current-weather .card-text,
+    .forecast .card-text {
+        font-size: 16px;
+    }
+    
+    button {
+        width: 100%;
+        font-size: 18px;
+        padding: 12px;
+    }
+}
