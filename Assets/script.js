@@ -13,8 +13,8 @@ const elements = {
 
 
 function fetchWeatherDataByCity(city) {
-    const currentWeatherUrl = 'https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&appid={apiKey}';
-    const forecastUrl = 'https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&appid={apiKey}';
+    const currentWeatherUrl = https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&appid=b06b06a80c5b29045729137315b77c66;
+    const forecastUrl = https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&appid=b06b06a80c5b29045729137315b77c66;
 
     return Promise.all([
         fetch(currentWeatherUrl),
